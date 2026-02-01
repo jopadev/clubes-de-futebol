@@ -1,4 +1,5 @@
-# Sample4
+# Clubes de Futebol brasileiro
+Projeto de FrontEnd para cadastro de times brasileiros, usando Angular.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
 
