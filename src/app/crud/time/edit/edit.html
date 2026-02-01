@@ -1,0 +1,71 @@
+<div class="container-fluid shadow-sm rounded p-4 mb-4" style="background-color: #f3f3f3;">
+   <h4 style="border-bottom:1px solid #000;">
+      Alteração de Cadastro de Time 
+   </h4>
+   <form [formGroup]="form" (ngSubmit)="submit()">
+      <div class="row">
+         <div class="col-lg-8">
+            <div class="form-floating pb-3">
+               <input class="form-control" id="nome" name="text" placeholder="nome" formControlName="nome">
+               <label for="nome">
+                  <h6>Nome</h6>
+               </label>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="form-floating pb-3">
+               <input class="form-control" id="apelido" type="text" placeholder="apelido" formControlName="apelido">
+               <label for="apelido">
+                  <h6>Apelido</h6>
+               </label>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="form-floating pb-3">
+               <input class="form-control" id="logo" 
+                  type="string" placeholder="logo" formControlName="logo">
+               <label for="logo">
+                  <h6>Logo URL</h6>
+               </label>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="form-floating">
+               <input class="form-control" id="brasileiros" 
+                  type="number" placeholder="brasileiros" formControlName="brasileiros">
+               <label for="rollNumber">
+                  <h6>Campeonatos Brasileiros</h6>
+               </label>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="form-floating">
+               <input class="form-control" id="copasDoBrasil" 
+                  type="number" placeholder="copasDoBrasil" formControlName="copasDoBrasil">
+               <label for="copasDoBrasil">
+                  <h6>Copas do Brasil</h6>
+               </label>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="form-floating">
+               <input class="form-control" id="estaduais" 
+                  type="number" placeholder="estaduais" formControlName="estaduais">
+               <label for="estaduais">
+                  <h6>Estaduais</h6>
+               </label>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-12 mt-4" style="border-top: 2px solid #e3e3e3;padding: 2px;">
+         <button  type="submit" class="btn btn-primary me-4"> 
+         Salvar Cadastro 
+         </button>
+         <a routerLink="/time/index" class="btn btn-secondary">Cancelar</a>
+      </div>
+   </form>
+</div>

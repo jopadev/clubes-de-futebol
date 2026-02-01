@@ -1,0 +1,27 @@
+<ul class="list">
+  @for(time of times;track time;){
+    <li class="pack">
+        <a href="javascript:void(0)">
+            <div class="pack-sku">
+       
+                {{time.dataFundacao}}
+           <br>
+                Data de Fundação
+             
+              
+            </div>
+            <div class="pack-card">
+                <div class="pack-title">{{time.abreviacao}}</div>
+                <div class="pack-description">
+                    <div class="text">Origem:{{time.origem}}</div>
+					          <img src="{{time.escudo}}" height="150" width="180">
+                </div>
+                <div class="pack-information">
+                  
+                </div>
+            </div>
+        </a>
+    </li>
+    }
+
+</ul>

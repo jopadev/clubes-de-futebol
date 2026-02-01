@@ -1,0 +1,104 @@
+/* makes padding+border part of total element size */
+* { box-sizing: border-box }
+
+:root {
+    /* Define a few values for general use */
+    --pad: 0.5rem; /* generic padding */
+    --bd : 3px;    /* border size */
+}
+
+// body {
+//     margin: 0; /* Remove HTML default spacing */
+
+//     padding: calc(2 * 0.5rem);
+//     font-size: calc(0.625vmin + 0.75rem); /* Responsive font */
+
+//     background-color: #efefef;
+// }
+
+.list {
+    /* Remove HTML defaults */
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+
+/******************/
+/* Flexbox Layout */
+/******************/
+/* Flexbox parent containers */
+.pack-description,
+.list, .pack>a, .pack-card { display: flex }
+
+.pack-description,
+.list, .pack>a             { flex-flow: row wrap }
+.pack-card                 { flex-flow: column wrap; justify-content: space-between }
+.list                      { justify-content: center }
+
+/* Flexbox child items */
+.pack-description .text,
+.pack-sku, .pack-card,
+.pack-description          { flex: 1 } /* allow to stretch to fill parent */
+
+/* Flexbox spacing */
+.list                      { gap: calc(2 * 0.5rem) }
+.pack>a, .pack-card        { gap: 0.5rem }
+
+/**********************/
+/* Sizing and Styling */
+/**********************/
+/* All classes containing ... */
+[class*="pack"] { padding: 0.5rem }
+
+.pack {
+    max-width: min(30rem, 100%); /* toy with this */
+
+    background-color: White;
+    border: 3px solid #aaa;
+    color: #444;
+}
+.pack:hover {
+    border-color: Black;
+    color: Black;
+}
+
+.pack>a {
+    text-decoration-style: wavy;
+    text-decoration-color: #e8e8e8;
+    color: currentColor;
+}
+.pack:hover>a {
+    text-decoration-style: solid;
+    text-decoration-color: Black;
+}
+
+.pack-sku {
+    white-space: nowrap;
+    border: 3px solid #c4590f;
+	display: flex;
+    align-items: center;
+	flex-flow: column;
+}
+
+/* Make vertical textbox when space allows */
+@media all and (min-width: 361px) {
+    .pack-sku {
+        flex: 0; /* disable fill parent size */
+
+        /* Rotate writing direction and element */
+        -webkit-writing-mode: vertical-lr;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+
+        text-align: right;
+    }
+}
+
+.pack-card        { border: 3px solid #2c74b4 }
+.pack-title       { border: 3px solid #febf01; font-size: 1.5em; font-weight: bold }
+.pack-description { border: 3px solid #6fac45 }
+.pack-information { border: 3px solid #fe0000 }
+
+.pack-description img {
+    display: block; margin: 0 auto;
+    width: min(calc(-7.5vmin + 13.625rem), 100%); /* (240,200)(1200,128) */
+}

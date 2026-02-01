@@ -1,0 +1,139 @@
+{
+  "times": [
+    {
+      "nome": "São Paulo",
+      "apelido": "Tricolor Paulista",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/585.png?lm=1409133922",
+      "brasileiros": 6,
+      "copasDoBrasil": 1,
+      "estaduais": 22,
+      "id": "eds4"
+    },
+    {
+      "nome": "Flamengo",
+      "apelido": "Mengão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/614.png?lm=1551023331",
+      "brasileiros": 9,
+      "copasDoBrasil": 5,
+      "estaduais": 39,
+      "id": "edqw"
+    },
+    {
+      "id": "oij1",
+      "nome": "Cruzeiro",
+      "apelido": "Cabuloso",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/609.png?lm=1757639240",
+      "brasileiros": 4,
+      "copasDoBrasil": 6,
+      "estaduais": 38
+    },
+    {
+      "id": "hyw2",
+      "nome": "Palmeiras",
+      "apelido": "Verdão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/1023.png?lm=1411204983",
+      "brasileiros": 12,
+      "copasDoBrasil": 4,
+      "estaduais": 26
+    },
+    {
+      "id": "uu12",
+      "nome": "Corinthians",
+      "apelido": "Timão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/199.png?lm=1649430398",
+      "brasileiros": 7,
+      "copasDoBrasil": 4,
+      "estaduais": 31
+    },
+    {
+      "id": "kytr",
+      "nome": "Grêmio",
+      "apelido": "Imortal",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/210.png?lm=1412879265",
+      "brasileiros": 2,
+      "copasDoBrasil": 5,
+      "estaduais": 43
+    },
+    {
+      "id": "de23",
+      "nome": "Atlético Mineiro",
+      "apelido": "Galo",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/330.png?lm=1411033853",
+      "brasileiros": 2,
+      "copasDoBrasil": 2,
+      "estaduais": 50
+    },
+    {
+      "id": "dds2",
+      "nome": "Vasco",
+      "apelido": "Gigante da Colina",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/978.png?lm=1651168164",
+      "brasileiros": 4,
+      "copasDoBrasil": 1,
+      "estaduais": 24
+    },
+    {
+      "id": "1de2",
+      "nome": "Internacional",
+      "apelido": "Inter",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/6600.png?lm=1644878605",
+      "brasileiros": 3,
+      "copasDoBrasil": 1,
+      "estaduais": 46
+    },
+    {
+      "id": "ef23",
+      "nome": "Botafogo",
+      "apelido": "Fogão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/537.png?lm=1651494898",
+      "brasileiros": 3,
+      "copasDoBrasil": 0,
+      "estaduais": 21
+    },
+    {
+      "id": "5se2",
+      "nome": "Santos",
+      "apelido": "Peixão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/221.png?lm=1412879099",
+      "brasileiros": 8,
+      "copasDoBrasil": 1,
+      "estaduais": 22
+    },
+    {
+      "id": "ki11",
+      "nome": "Bahia",
+      "apelido": "Tricolor de Aço",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/10010.png?lm=1412879423",
+      "brasileiros": 2,
+      "copasDoBrasil": 0,
+      "estaduais": 51
+    },
+    {
+      "id": "fe21",
+      "nome": "Fluminense",
+      "apelido": "Flusão",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/2462.png?lm=1648225934",
+      "brasileiros": 4,
+      "copasDoBrasil": 1,
+      "estaduais": 33
+    },
+    {
+      "nome": "Goiás ",
+      "apelido": "Esmeraldino",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/3197.png?lm=1668099048",
+      "brasileiros": 0,
+      "copasDoBrasil": 0,
+      "estaduais": 28,
+      "id": "f2a5"
+    },
+    {
+      "id": "e485",
+      "nome": "Criciúma",
+      "apelido": "Tigre",
+      "logo": "https://tmssl.akamaized.net//images/wappen/head/7178.png?lm=1412878993",
+      "brasileiros": 0,
+      "copasDoBrasil": 1,
+      "estaduais": 10
+    }
+  ]
+}

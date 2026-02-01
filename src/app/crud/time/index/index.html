@@ -1,0 +1,23 @@
+
+   
+      
+ <div class="row">
+      <div class="col-lg-12 col-md-12">
+            <div class="p-2 mt-2 d-flex justify-content-between rounded text-white stats text-center" style="background: #f2f5f8 !important;
+    color: #000 !important;">
+            <h6>Times</h6>
+             <a href="#" routerLink="/time/create/" class="btn btn-success">Novo Time</a>
+            </div>
+      </div>
+@for(time of times();track time.id;){
+   <div class="col-lg-3 col-md-3">
+      <card [item]="time"></card>
+   </div>
+}
+ @empty {
+      <div class="row m-0 mt-4">
+        <div class="alert alert-info">No records found.</div>
+      </div>
+    }
+</div>
+
